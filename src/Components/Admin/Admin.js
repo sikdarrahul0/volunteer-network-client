@@ -26,7 +26,7 @@ const Admin = () => {
         <section className="admin-section">
             <div className="row">
                 <div className="col-2 p-0">
-                     <img className="logo mb-4" src="https://i.ibb.co/x7yjzcH/Group-1329.png" alt="logo"/>
+                    <Link to="/home"><img className="logo mb-4" src="https://i.ibb.co/x7yjzcH/Group-1329.png" alt="logo"/></Link>
                      <p className="text-primary mt-3"><img className="icon" src="https://i.ibb.co/QX0ZLTN/users-alt-1.png" alt=""/> Volunteer register list</p>
                     <Link className="add-event" to="/addevent"><p> <img className="icon" src="https://i.ibb.co/Zx6HxgC/plus-1.png" alt=""/> Add event</p></Link> 
                 </div>

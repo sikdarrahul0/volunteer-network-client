@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { UserContext } from '../../App';
 import './Registration.css';
 
@@ -40,7 +40,7 @@ const Registration = () => {
     return (
         <div>
             <section className="reg-section">
-                <img className="logo-design" src="https://i.ibb.co/x7yjzcH/Group-1329.png" alt="logo"/>
+                <Link to="/home"><img className="logo-design" src="https://i.ibb.co/x7yjzcH/Group-1329.png" alt="logo"/></Link>
                 <div className="reg-box">
                     <form onSubmit={handleSubmit} action="">
                         <input type="text" defaultValue={loggedInUser.displayName} placeholder="Full Name"/>

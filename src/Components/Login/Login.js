@@ -4,7 +4,7 @@ import "firebase/auth";
 import './Login.css';
 import firebaseConfig from './Config';
 import { UserContext } from '../../App';
-import { useHistory, useLocation } from 'react-router-dom';
+import { Link, useHistory, useLocation } from 'react-router-dom';
 
 firebase.initializeApp(firebaseConfig);
 
@@ -32,7 +32,7 @@ const Login = () => {
     }
     return (
         <section className="login-section">
-            <img className="logo-design" src="https://i.ibb.co/x7yjzcH/Group-1329.png" alt="logo"/>
+            <Link to="/home"><img className="logo-design" src="https://i.ibb.co/x7yjzcH/Group-1329.png" alt="logo"/></Link>
             <div className="login-box">
                 <h3 className="font-weight-bold">Login With</h3>
                 <button onClick={handleGoogleSignIn} className="signIn-btn"> <img className="google-logo" src="https://i.ibb.co/1ZLStk3/google.png" alt="google-logo"/> Continue with Google</button>
