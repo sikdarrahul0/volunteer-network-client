@@ -1,0 +1,31 @@
+.events-section{
+    padding: 0 8%;
+    min-height: 750px;
+    max-height: 2000px;
+    background-color: #E5E5E5;
+}
+.events-img{
+    width: 250px;
+    margin-right: 16px;
+}
+.events-box{
+    display: flex;
+    width: 650px;
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 8px;
+    margin: 15px 25px;
+    padding-left: 20px;
+}
+.event-details-box{
+    width: 170px;
+}
+.cancel-btn{
+    float: right;
+    margin-top: 40px;
+    position: absolute;
+    color: #fff;
+    bottom: 20px;
+    margin-left: 4px;
+    font-weight: bold;
+}

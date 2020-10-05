@@ -1,0 +1,47 @@
+.example input[type=text] {
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 300px;
+    background: #fff;
+    border-radius: 5px;
+  }
+  .example button {
+    border-radius: 5px 5px 5px 0;
+    width: 110px;
+    padding: 10px;
+    background: #3F90FC;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+  }
+  .example button:hover {
+    background: #0b7dda;
+  }
+  .example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .card{
+      font-weight: bold;
+      text-align: center;
+      height: 400px;
+      width: 270px;
+      margin: 0 6px;
+  }
+  .card-body{
+      border-radius: 10px;
+      color: #fff;
+  }
+  .link-design{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  .link-design:hover{
+    text-decoration: none;
+  }

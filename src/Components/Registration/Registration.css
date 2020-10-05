@@ -1,0 +1,23 @@
+.reg-section{
+    padding-top: 3%;
+    text-align: center;
+    min-height: 750px;
+    max-height: 1200px;
+    background-color: #E5E5E5;
+}
+.reg-box{
+    width: 40%;
+    margin: 40px auto;
+    padding: 65px 20px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+.reg-box input{
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    width: 80%;
+    margin: 15px 0;
+}
+.reg-box input:focus{
+    outline: none;
+}

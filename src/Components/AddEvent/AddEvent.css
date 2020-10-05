@@ -1,0 +1,30 @@
+.addevent-section{
+        padding-left: 3%;
+        padding-top: 1%;
+}
+.addevent-box-out{
+    background-color: #E5E5E5;
+    min-height: 630px;
+    max-height: 1500px;
+    padding: 10px;
+}
+.addevent-box-in{
+    margin: 20px;
+    padding: 15px 50px;
+    border-radius: 20px;
+    background-color: #fff;
+    min-height: 350px;
+}
+.addevent-box-in input{
+    border: 1px solid lightgrey;
+    width: 330px;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+.des-field{
+    height: 121px;
+}
+textarea{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}

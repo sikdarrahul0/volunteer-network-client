@@ -1,0 +1,26 @@
+.logo{
+    width: 170px;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 1.2 rem;
+    margin: 10px 10px;
+}
+.reg-btn{
+    text-align: center;
+    height: 40px;
+    width: 83px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #3F90FC;
+}
+.admin-btn{
+    text-align: center;
+    height: 40px;
+    width: 83px;
+    border-radius: 6px;
+    background-color: #f83455;
+}
+.sign-out:hover{
+    cursor: pointer;
+}

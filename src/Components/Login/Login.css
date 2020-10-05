@@ -1,0 +1,32 @@
+.login-section{
+    padding-top: 3%;
+    text-align: center;
+    min-height: 700px;
+    max-height: 1200px;
+    background-color: #E5E5E5;
+}
+.logo-design{
+    width: 250px;
+}
+.login-box{
+    width: 30%;
+    margin: 40px auto;
+    padding: 100px 20px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+.google-logo{
+    width: 20px;
+    float: left;
+    margin: 3px 4px;
+}
+.signIn-btn{
+    margin-top: 35px;
+    margin-bottom: 24px;
+    margin: 15px 10px;
+    padding: 5px;
+    width: 86%;
+    border: 1px solid #ABABAB;
+    background-color: white;
+    border-radius: 30px;
+}
