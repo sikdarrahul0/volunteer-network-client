@@ -8,13 +8,13 @@ https://github.com/sikdarrahul0/volunteer-network-server
 
 ## Volunteer Network
     
-    ★ A full stack volunteering community app.
-    ★ Authenticated users can apply for any social work as a volunteer.
-    ★ Admin can add or delete events, modify the volunteer list.
-    ★ Volunteer can see their registered events.
-    ★ Volunteer can cancel their registered events.
-    ★ Admin can add new volunteer types.
-    ★ Responsive home page.
+	        ★ A full stack volunteering community app.
+		★ Authenticated users can apply for any social work as a volunteer.
+		★ Admin can add or delete events, modify the volunteer list.
+		★ Volunteer can see their registered events.
+		★ Volunteer can cancel their registered events.
+		★ Admin can add new volunteer types.
+		★ Responsive home page.
     
 ## Technologies
 
